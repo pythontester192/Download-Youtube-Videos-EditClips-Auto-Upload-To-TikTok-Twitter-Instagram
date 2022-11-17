@@ -1,4 +1,4 @@
-# Only 10 lines of python code to upload video to TikTok, Instagram, Twitter
+# Free BOT Money Maker Using Python & Clicknium
 
 ## Tutorial Videos on How to Use Clicknium
 Open media folder, where you can find 3 basic videos on how to set up Clicknium module, & how to use it step by step.
