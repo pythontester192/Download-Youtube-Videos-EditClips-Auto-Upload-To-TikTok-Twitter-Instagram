@@ -3,7 +3,7 @@ from moviepy.editor import *
 import requests, os
 from PIL import Image
 
-yt_link = "" #Add your prefered youtube video link here
+yt_link = "https://www.youtube.com/shorts/QJ28d7KFwvY" #Add your prefered youtube video link here
 
 video = YouTube(yt_link)
 
@@ -22,11 +22,11 @@ clip = VideoFileClip("downloaded_video.mp4")
 clip_duration = clip.duration
 
 #Generate a text clip
-txt_clip = TextClip("Link in Bio!", fontsize = 80, color = 'white')    
-txt_clip = txt_clip.set_pos('center').set_duration(clip_duration)
+txt_clip = TextClip("Link in Bio!", fontsize = 70, color = 'black')    
+txt_clip = txt_clip.set_pos('top').set_duration(clip_duration)
 
 #Adding Color Effect to the clip
-clip = clip.fx( vfx.colorx, 2.5)
+# clip = clip.fx( vfx.colorx, 2.5)
 
 #Export Final Video Clip & Save It in Media Folder
 final_video = CompositeVideoClip([clip, txt_clip])

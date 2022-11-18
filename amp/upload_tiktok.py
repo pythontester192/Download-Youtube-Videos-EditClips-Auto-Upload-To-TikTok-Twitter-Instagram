@@ -15,6 +15,7 @@ def upload(caption, video_file):
     sleep(3)
     ui(locator.chrome.button_open).click(by='control-invocation')
     sleep(3)
+    tab.scroll(0, 500)
     tab.find_element(locator.chrome.tiktok.disable_button).wait_property('disabled', 'false', wait_timeout=150)
     sleep(3)
     tab.find_element(locator.chrome.tiktok.button_post).click()
@@ -22,5 +23,5 @@ def upload(caption, video_file):
 
 
 if __name__ == "__main__":
-    video_file = os.path.join(os.getcwd(), "media", "clicknium_introduction.mp4")
+    video_file = os.path.join(os.getcwd(), "media", "final_video.mp4")
     upload('Clicknium introduction', video_file)
