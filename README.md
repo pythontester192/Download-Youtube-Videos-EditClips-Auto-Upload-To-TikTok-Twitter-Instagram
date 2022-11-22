@@ -23,4 +23,4 @@ upload_instagram.upload(caption, cover_image, video_file)
 ```
 
 ## Watch This Full Tutorial Video on How to Use This GitHub Project
-- Follow Step By Step This [Youtube Video Tutorial](https://www.youtube.com/c/PythonPassiveIncome)
+- Follow Step By Step This [Youtube Video Tutorial](https://youtu.be/rytr00mxkSo)
